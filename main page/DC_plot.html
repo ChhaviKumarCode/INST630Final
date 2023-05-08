@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="1stylesheet.css">
+    <!-- Load d3.js -->
+    <script src="https://d3js.org/d3.v6.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <div class="tag">
+        <div class="top">
+          <ul class="nav-menu">
+            <li class="homebtn"><a href="1index.html">Home</a></li>
+            <li class="databtn"><a href="2data.html">Data Vis.</a></li>
+            <li class="aboutbtn"><a href="3about.html">About</a></li>
+          </ul>
+        </div>
+        <h1>Double Circular Graph</h1>
+        <h2>Positive & Death Rates for Each State (March 7th 2021)</h2>
+        <p class="bgc">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum
+          dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum."
+        </p>
+      </div>
+    </header>
+    </div>
+
+    <div class="legend">
+      <ul class="colors">
+        <li class="Legend-item">
+          <span class="Legend-colorBox" style="background-color: blue;">
+          </span>
+          <span class="Legend-label">
+            Positive Cases
+          </span>
+        </li>
+        <li class="Legend-item">
+          <span class="Legend-colorBox" style="background-color: red;">
+          </span>
+          <span class="Legend-label">
+            Death Rates
+          </span>
+        </li>
+      </ul>
+  </div>
+    <!-- Create a div where the graph will take place -->
+    <div id="DC_dataviz"></div>
+    <!-- <script src = "positive results"> </script> -->
+    <script src="DC_plot.js"></script>
+
+    
+    <div class="bottom">
+      <ul class="buttons">
+        <li class="previous"><a href="Mbar.html">View Bar Graph </a></li>
+      </ul>
+    </div>
+  <footer>
+    <p class="notes"> INST630: Data Visualization <br>COVID-19 D3.JS<br>Created by Chhavi Kumar</p>
+  </footer>  
+  </body>
+</html>
